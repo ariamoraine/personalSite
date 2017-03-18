@@ -9,9 +9,19 @@ body {
   padding: 0;
   text-align: center;
 }
+
 .pageOne {
   background: linear-gradient(#F3F1CB, #2A8B91);
   height: 100vh;
+}
+
+.pageTwo {
+  height: 100vh;
+  background-image: url('ep_naturalwhite.png');
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .header {
@@ -25,7 +35,13 @@ body {
   margin-right: auto;
   margin-left: auto;
   max-width: 75%;
+}
 
+.card {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  width: 80vh;
+  height: 80vh;
+  background: #fcfcfc;
 }
 
 hr {
