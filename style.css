@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.pageOne {
+  background: linear-gradient(#F3F1CB, #2A8B91);
+  height: 100vh;
+}
+
+.header {
+  padding: 10px;
+}
+
+.pageOneFormat {
+  padding-top: 1%;
+  left: 0;
+  right: 0;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 75%;
+
+}
+
+hr {
+  width: 75%;
+  background-color: #000000;
+  border: 0 none;
+  height: 1px;
+}
+
+h1 {
+  font-size: 10.5vw;
+  font-weight: 300;
+}
+
+p {
+  font-weight: bolder;
+  font-size: 2.2vw;
+}
