@@ -91,6 +91,18 @@ body {
   filter: FlipH;
   -ms-filter: "FlipH";
   box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  float: left;
+  margin-left: 20vh;
+  margin-top: 20vh;
+}
+
+#profileText {
+  width: 80vh;
+  margin-left: 45vh;
+  padding-top: 40vh;
+  padding-left: 7vh;
+  font-size: 1.25em;
+  text-align: left;
 }
 
 hr {
