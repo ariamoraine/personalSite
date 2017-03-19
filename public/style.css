@@ -10,18 +10,24 @@ body {
   text-align: center;
 }
 
+
 .pageOne {
   background: linear-gradient(#F3F1CB, #2A8B91);
   height: 100vh;
 }
 
-.pageTwo {
+.pageProjects {
   height: 100vh;
   background-image: url('ep_naturalwhite.png');
   margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.pageContact {
+  height: 100vh;
+  background-image: url('ep_naturalwhite.png');
 }
 
 .header {
@@ -72,6 +78,19 @@ body {
 
 #pageTwoTitle {
   font-size: 3em;
+}
+
+#profilePic {
+  object-fit: cover;
+  width: 30vh;
+  height: 40vh;
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
 
 hr {
