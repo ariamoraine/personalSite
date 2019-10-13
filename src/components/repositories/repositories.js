@@ -31,27 +31,25 @@ class Repositories extends React.Component {
         {status === "loading" && <div className='repositories__loader'><Loader /></div>}
         {status === "ready" &&
           this.state.repos && (
-            <React.Fragment>
-              <div className="repositories__content">
-                {this.state.repos.map(repo => (
-                  <React.Fragment key={repo.name}>
-                    <div className="repositories__repo">
-                      <a className='repositories__repo-link' href={repo.html_url}>
-                        <strong>{repo.name}</strong>
-                      </a>
-                      <div>{repo.description}</div>
-                      <div className="repositories__repo-date">
-                        Updated: {new Date(repo.updated_at).toUTCString()}
-                      </div>
-                      <div className="repositories__repo-star">
-                        ★ {repo.stargazers_count}
-                      </div>
+            <div className="repositories__content">
+              {this.state.repos.map(repo => (
+                <React.Fragment key={repo.name}>
+                  <div className="repositories__repo">
+                    <a className='repositories__repo-link' href={repo.html_url}>
+                      <strong>{repo.name}</strong>
+                    </a>
+                    <div>{repo.description}</div>
+                    <div className="repositories__repo-date">
+                      Updated: {new Date(repo.updated_at).toUTCString()}
                     </div>
-                    <hr />
-                  </React.Fragment>
-                ))}
-              </div>
-            </React.Fragment>
+                    <div className="repositories__repo-star">
+                      ★ {repo.stargazers_count}
+                    </div>
+                  </div>
+                  <hr />
+                </React.Fragment>
+              ))}
+            </div>
           )}
       </div>
     )
