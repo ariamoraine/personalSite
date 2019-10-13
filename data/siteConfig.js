@@ -1,7 +1,6 @@
 module.exports = {
-  siteTitle: 'Hi! I\'m Aria!',
-  siteDescription: `Create your online curriculum in just a few minutes with this starter`,
-  keyWords: ['gatsbyjs', 'react', 'curriculum'],
+  siteTitle: 'Aria Corti',
+  siteDescription: `Simple CV`,
   authorName: 'Aria Corti',
   githubUsername: 'ariamoraine',
   authorAvatar: '/images/headshot.jpg',
@@ -82,17 +81,13 @@ module.exports = {
       occupation: 'Teaching Fellow',
       description: '<p>Led weekly technical interview prep for senior cohorts, algorithm and whiteboarding practice </p><p> Debugged mentored and taught concepts and best practices for about 25 students </p><p> Administered technical interviews for prospective students 2 to 3 times weekly in Javascript, python, and ruby </p><p> Managed student projects from start through deployment as team manager, technical mentor, and code reviewer</p>'
     }
-    /* ... */
   ],
   social: {
     linkedin: "https://www.linkedin.com/in/aria-moraine",
     github: "https://github.com/ariamoraine",
     email: "ariamoraine@gmail.com"
   },
-  // siteUrl: 'https://santosfrancisco.github.io/gatsbystarter-cv',
-  // pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
   siteCover: '/images/cover.jpeg',
-  googleAnalyticsId: 'UA-000000000-1',
   background_color: '#ffffff',
   theme_color: '#25303B',
   display: 'minimal-ui',
