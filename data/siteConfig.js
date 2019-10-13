@@ -52,7 +52,7 @@ module.exports = {
       },
       duration: null,
       occupation: "Product developer",
-      description: `Maintain an admin and product UI that is used by over 50 large scale hospital systems. Whose privacy oﬀicers use the Protenus platform on a daily basis to complete critical work <br> Added new sections and features to the core product every quarter. One example being ‘Groups’ - which added a layer of abstraction for organizations with multiple locations. Enabling, user controlled full application filtering of unwanted data. <br> Assisted in bringing to market the second product for the company. Added into the existing architecture while maintaining the quality and reliability of the core privacy product <br> Managed by-weekly product releases. Creating and maintaining internal documentation of tickets completed within the sprint as well as leading release meetings with the customer support team. Relaying all necessary information for the external release notes <br> Maintained quality product enabling the company to reach Best In Klas Category Leader of 2019 <br> Scrum Master, run all Agile meetings, prioritized/vetted new requests, balanced the team assignments between the three products, tech debt, and feature requests <br> Completed UX/UI design tickets working with sketch and invision`
+      description: `<p>Maintains an admin and product UI that is used by over 50 large scale hospital systems, whose privacy oﬀicers use the Protenus platform on a daily basis to complete critical work </p><p> Added new sections and features to the core product every quarter. One example being ‘Groups’ - which added a layer of abstraction for organizations with multiple locations. Enabling, user controlled full application filtering of unwanted data. </p><p> Assisted in bringing to market the second product for the company. Added into the existing architecture while maintaining the quality and reliability of the core privacy product </p><p> Managed by-weekly product releases. Creating and maintaining internal documentation of tickets completed within the sprint as well as leading release meetings with the customer support team. Relaying all necessary information for the external release notes </p><p> Maintained quality product enabling the company to reach Best In Klas Category Leader of 2019 </p><p> Scrum Master, run all Agile meetings, prioritized/vetted new requests, balanced the team assignments between the three products, tech debt, and feature requests </p><p> Completed UX/UI design tickets working with sketch and invision</p>`
 
     }, {
       company: "Fullstack Academy of Code",
@@ -62,7 +62,7 @@ module.exports = {
       },
       duration: '5 months',
       occupation: "Foundations Mentor (Part time, Nights and Weekends)",
-      description: " Provided   a   first   point   of   contact   for   a   cohort   of   15   -   20   students   in   month   long   sessions   while   working   through   the   at-home   javaScript   curriculum    + Graded   all   tests,   ensuring   students   understood   all   material   and   followed   JavaScript   best   practices.   Leaving   constructive   feedback   on   areas   to   improve   their   skills   and   understanding   + One   on   One   tutoring   for   students   that   struggled   with   any   topics"
+      description: "<p>Provided a first point of contact for a cohort of 15 - 20 students in month long session while working through the at-home javaScript curriculum  </p><p>Graded all tests, ensuring students understood all material and followed JavaScript best practices. Leaving constructive feedback on areas to improve their skills and understanding </p><p>One on One tutoring for students that struggled with any topics</p>"
     }, {
       company: "Movatic",
       begin: {
@@ -71,8 +71,7 @@ module.exports = {
       },
       duration: '7 months',
       occupation: "Full-Stack Engineer",
-      description: " Rewrote   the   existing   angular   administrative   website   with   react   and   react-redux,   bringing   it   to   full   feature   parity   as   well   as   adding   additional   features   + Worked   independently,   completing   tasks   and   assignments   with   quick   turnaround   and   minimal   assistance   + Envisioned   and   executed   better   UI/UX   + Used   existing   python   backend,   writing   and   maintaining   REST   API "
-  
+      description: "<p>Rewrote the existing angular administrative website with react and react-redux, bringing it to full feature parity as well as adding additional features </p><p>Worked independently, completing tasks and assignments with quick turnaround and minimal assistance </p><p>Envisioned and executed better UI/UX </p><p>Used existing python backend, writing and maintaining REST API</p>"
     }, {
       company: 'Fullstack Academy of Code',
       begin: {
@@ -81,7 +80,7 @@ module.exports = {
       },
       duration: '4 months',
       occupation: 'Teaching Fellow',
-      description: 'Led weekly technical interview prep for senior cohorts, algorithm and whiteboarding practice <br> Debugged mentored and taught concepts and best practices for about 25 students <br> Administered technical interviews for prospective students 2 to 3 times weekly in Javascript, python, and ruby <br> Managed student projects from start through deployment as team manager, technical mentor, and code reviewer'
+      description: '<p>Led weekly technical interview prep for senior cohorts, algorithm and whiteboarding practice </p><p> Debugged mentored and taught concepts and best practices for about 25 students </p><p> Administered technical interviews for prospective students 2 to 3 times weekly in Javascript, python, and ruby </p><p> Managed student projects from start through deployment as team manager, technical mentor, and code reviewer</p>'
     }
     /* ... */
   ],

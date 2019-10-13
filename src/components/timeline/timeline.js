@@ -16,7 +16,7 @@ const Timeline = ({ className }) => {
               <span className="timeline__year">{job.begin.year}</span>
             </span>
             <h2 className='timeline__title'>{job.occupation} at {job.company} <br /><small className='timeline__title--small'>({job.duration || 'present'})</small></h2>
-            <p>{ReactHtmlParser(job.description)}</p>
+            <p className='timeline__description'>{ReactHtmlParser(job.description)}</p>
           </div>
         </article>
       ))}
@@ -31,7 +31,6 @@ export default styled(Timeline)`
     content: '';
     display: block;
     position: absolute;
-    // left: 50%;
     left: 9%;
     top: 0;
     margin: 70px 0 0 -1px;
@@ -62,7 +61,6 @@ export default styled(Timeline)`
     padding: 3px 5px;
     position: absolute;
     top: 0;
-    // left: 50%;
     left: 9%;
     margin: 0 0 0 -30px;
     border-radius: 100%;
@@ -103,7 +101,6 @@ export default styled(Timeline)`
     transform: rotate(-45deg);
   }
   .timeline__item div.inner p {
-    padding: 15px;
     margin: 0;
     font-size: 14px;
     background: #fff;
@@ -112,6 +109,15 @@ export default styled(Timeline)`
   }
   .timeline__item div.inner {
     float: right;
+  }
+  .timeline__description {
+    padding: 15px;
+  }
+  .timeline__description > p {
+    padding: 15px 15px 0 15px;
+  }
+  .timeline__description > p :last-child {
+    padding-bottom: 15px;
   }
   .timeline__title {
     background: #25303B;
