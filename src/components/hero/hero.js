@@ -35,7 +35,7 @@ class Hero extends React.Component {
     return (
       <HeroContainer className={className}>
         <TitleContainer>
-          <HeroTitle>{title}</HeroTitle>
+          <HeroTitle>Hello, I'm {title}</HeroTitle>
         </TitleContainer>
       </HeroContainer>
     )
