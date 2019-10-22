@@ -6,7 +6,7 @@ import siteConfig from '../../../data/siteConfig'
 import Loader from '../loader'
 
 const endpoint =
-  `https://api.github.com/users/${siteConfig.githubUsername}/repos?type=owner&sort=updated&per_page=5&page=1`
+  `https://api.github.com/users/${siteConfig.githubUsername}/repos?type=all&sort=pushed&per_page=5&page=1`
 
 
 class Repositories extends React.Component {
@@ -24,15 +24,15 @@ class Repositories extends React.Component {
     }
   }
   render () {
-    const { status } = this.state
+    const { repos, status } = this.state
     return (
       <div className={this.props.className}>
         <h2>Latest repositories on Github</h2>
         {status === "loading" && <div className='repositories__loader'><Loader /></div>}
         {status === "ready" &&
-          this.state.repos && (
+          repos && (
             <div className="repositories__content">
-              {this.state.repos.map(repo => (
+              {repos.map(repo => (
                 <React.Fragment key={repo.name}>
                   <div className="repositories__repo">
                     <a className='repositories__repo-link' href={repo.html_url}>
@@ -41,9 +41,6 @@ class Repositories extends React.Component {
                     <div>{repo.description}</div>
                     <div className="repositories__repo-date">
                       Updated: {new Date(repo.updated_at).toUTCString()}
-                    </div>
-                    <div className="repositories__repo-star">
-                      ★ {repo.stargazers_count}
                     </div>
                   </div>
                   <hr />
